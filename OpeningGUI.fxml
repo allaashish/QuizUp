@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="page" prefHeight="200.0" prefWidth="461.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FirstPart.LoginController">
+   <children>
+      <Button fx:id="enteringButton" layoutX="85.0" layoutY="102.0" mnemonicParsing="false" onAction="#enteringButtonAction" prefHeight="25.0" prefWidth="201.0" text="Lets start the fucking game" />
+      <TextField id="userName" fx:id="userName" layoutX="169.0" layoutY="32.0" prefHeight="25.0" prefWidth="185.0" onKeyPressed="#handleEnterPressed"/>
+      <Text fill="#0b2e13" fontSmoothingType="LCD" layoutX="21.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your name   :" wrappingWidth="155.2578125">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

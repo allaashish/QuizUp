@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FirstPart.FinalController">
+   <children>
+      <Text layoutX="139.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thankyou for playing QuizUp !! " wrappingWidth="263.25">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Label fx:id="scoreLabel" layoutX="290.0" layoutY="161.0" prefHeight="25.0" prefWidth="60.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Button fx:id="exitButton" layoutX="251.0" layoutY="256.0" mnemonicParsing="false" onAction="#exitButtonAction" prefHeight="25.0" prefWidth="78.0" text="Exit" />
+      <Text layoutX="101.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your final score is" wrappingWidth="218.13671875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
